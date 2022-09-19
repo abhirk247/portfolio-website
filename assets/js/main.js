@@ -46,16 +46,16 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 1500,
-    // delay: 200,
-    reset: true
+    delay: 200,
+    reset: false
 });
 
 sr.reveal('.home__data, .about__img, .section-title,.fa-solid fa-arrow-up',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .bar',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.container, .work__img, .contact__input,.footer,.l-header'); 
-// sr.reveal('.container, .work__img,.l-header'); 
-// sr.reveal('.nav__logo',{delay:200});
+sr.reveal('.container, .work__img,.l-header'); 
+sr.reveal('.nav__logo',{delay:200});
 // sr.reveal('.skills__data, .work__img, .bn5',{interval: 200}); 
 
 
